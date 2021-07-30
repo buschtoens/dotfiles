@@ -1,0 +1,12 @@
+# This ignores any and all files by default. In order to add a file to the
+# repository, it has to be added with the `--force` / `-f` flag, like:
+#
+#    $ git add -f new-file.txt
+#
+# This allows this repository to be cloned into the `$HOME` directory itself,
+# without having to worry about accidentally adding files. Other repositories
+# contained somewhere in `$HOME` are also completely isolated. There are no
+# accidental `git submodule` shenanigans.
+#
+# See the `README.md` for more details.
+*
